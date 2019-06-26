@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+div {
+  background-color: antiquewhite;
+  background-size: cover;
 }
+
+input {
+  background-color: antiquewhite;
+  border-bottom: 1px solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid black;
+  text-shadow: 1px 1px dodgerblue;
+  background-color: aquamarine;
+}
+
+h1,
+h3 {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+}
+
+
+button {
+  border: none;
+  background-color: aqua;
+  color: black;
+}
+
