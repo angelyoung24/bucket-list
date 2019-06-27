@@ -24,11 +24,13 @@ h1 {
   border: 1px solid black;
   text-shadow: 1px 1px dodgerblue;
   background-color: aquamarine;
+  font-family: "Amatic SC",
+  cursive;
 }
 
-h1,
 h3 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Amatic SC",
+  cursive;
   text-align: center;
 }
 
