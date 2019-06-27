@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bucket-list/static/css/main.c56233f4.chunk.css",
+    "main.css": "/bucket-list/static/css/main.b98a7d8d.chunk.css",
     "main.js": "/bucket-list/static/js/main.82948bea.chunk.js",
     "main.js.map": "/bucket-list/static/js/main.82948bea.chunk.js.map",
     "runtime~main.js": "/bucket-list/static/js/runtime~main.934c4c2b.js",
@@ -8,9 +8,9 @@
     "static/js/2.244b2b74.chunk.js": "/bucket-list/static/js/2.244b2b74.chunk.js",
     "static/js/2.244b2b74.chunk.js.map": "/bucket-list/static/js/2.244b2b74.chunk.js.map",
     "index.html": "/bucket-list/index.html",
-    "precache-manifest.de2ffb70be79102fc2f30a9c54c091b3.js": "/bucket-list/precache-manifest.de2ffb70be79102fc2f30a9c54c091b3.js",
+    "precache-manifest.2998a57bea1972c5f9acb2789f31af60.js": "/bucket-list/precache-manifest.2998a57bea1972c5f9acb2789f31af60.js",
     "service-worker.js": "/bucket-list/service-worker.js",
-    "static/css/main.c56233f4.chunk.css.map": "/bucket-list/static/css/main.c56233f4.chunk.css.map",
+    "static/css/main.b98a7d8d.chunk.css.map": "/bucket-list/static/css/main.b98a7d8d.chunk.css.map",
     "static/media/index.css": "/bucket-list/static/media/art-close-up-decor-279415.6b349f66.jpg"
   }
 }
