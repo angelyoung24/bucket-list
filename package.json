@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "https://angelyoung24.github.io/bucket-list",
   "dependencies": {
+    "@material-ui/core": "^4.4.2",
+    "@material-ui/icons": "^4.4.1",
+    "dom": "^0.0.3",
     "gh-pages": "^2.0.1",
     "jshint": "^2.10.2",
     "react": "^16.8.6",
