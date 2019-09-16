@@ -1,12 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+
+import Typography from "@material-ui/core/Typography";
+import Fab from "@material-ui/core/Fab";
+import AddIcon from "@material-ui/icons/Add";
+import Container from "@material-ui/core/Container";
 
 function App() {
-    return ( <div >
-        <ToDoList / >
-        </div>
-        );
+  return (
+    <div>
+      <ToDoList />
+    </div>
+  );
 }
 
 function ToDoList() {
@@ -31,36 +37,39 @@ function ToDoList() {
 
   return (
     <div>
-      <h1>Bucket List</h1>
-      {todos.map(todo => {
-        const isDone = finishedTodos.includes(todo);
-        return (
-          <h3 key={todo}>
-            <input
-              type="checkbox"
-              checked={isDone}
-              onChange={function(e) {
-                isDone ? startTodo(todo) : finishTodo(todo);
-              }}
-            />
-            {isDone ? <del>{todo}</del> : todo}  
-          </h3>
-        );
-      })}
+      <Container fixed>
+        <Typography className='h2' variant='h2' gutterBottom>
+          Bucket List
+        </Typography>
+        {todos.map(todo => {
+          const isDone = finishedTodos.includes(todo);
+          return (
+            <Typography className='h6' variant='h6' gutterBottomkey={todo}>
+              <input
+                type='checkbox'
+                checked={isDone}
+                onChange={function(e) {
+                  isDone ? startTodo(todo) : finishTodo(todo);
+                }}
+              />
+              {isDone ? <del>{todo}</del> : todo}
+            </Typography>
+          );
+        })}
 
-      <input
-        value={text}
-        onChange={function(e) {
-          setText(e.target.value);
-        }}
-      />
+        <input
+          value={text}
+          onChange={function(e) {
+            setText(e.target.value);
+          }}
+        />
 
-      <button disabled={!text} onClick={addTodo}>
-        Add!
-      </button>
+        <Fab color='secondary' size='small' disabled={!text} onClick={addTodo}>
+          <AddIcon />
+        </Fab>
+      </Container>
     </div>
   );
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
+ReactDOM.render(<App />, document.getElementById("root"));
