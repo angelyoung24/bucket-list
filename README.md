@@ -9,5 +9,5 @@ For future versions:
 * Saving the list objects
 
 ## Live Link
-App available on: https://angelyoung24.github.io/bucket-list/
+App available on: 
 
